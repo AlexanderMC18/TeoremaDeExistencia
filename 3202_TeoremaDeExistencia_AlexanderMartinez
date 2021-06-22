@@ -1,12 +1,12 @@
-% Teorema de Existencia3
+% Teorema de Existencia1
 % Alexander Martinez Cisneros
 % Fecha 23 de Junio del 2021
-% funcion f(x)=In(x), [1,4]
+% funcion f(x)=exp(x), [0,4]
 
 clear
-x=1:0.1:4;
-y=log(x);
+x=0:0.1:4;
+y=exp(x);
 plot(x,y);
-title("f(x)=In(x)");
+title("f(x)=e^x");
 xlabel("X");
 ylabel("Y");
