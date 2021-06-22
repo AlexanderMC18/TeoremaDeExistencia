@@ -1,0 +1,12 @@
+% Teorema de Existencia3
+% Alexander Martinez Cisneros
+% Fecha 23 de Junio del 2021
+% funcion f(x)=In(x), [1,4]
+
+clear
+x=1:0.1:4;
+y=log(x);
+plot(x,y);
+title("f(x)=In(x)");
+xlabel("X");
+ylabel("Y");
