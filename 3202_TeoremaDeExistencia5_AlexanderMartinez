@@ -1,0 +1,12 @@
+% Teorema de Existencia5
+% Alexander Martinez Cisneros
+% Fecha 23 de Junio del 2021
+% funcion f(x)=1/x, [0,4]
+
+clear
+x=0:0.1:4;
+y=1./x;
+plot(x,y);
+title("f(x)=1/x");
+xlabel("X");
+ylabel("Y");
