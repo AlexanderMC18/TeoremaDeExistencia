@@ -1,0 +1,12 @@
+% Teorema de Existencia8
+% Alexander Martinez Cisneros
+% Fecha 23 de Junio del 2021
+% funcion f(x)=[x], [0,10]
+
+clear
+x=0:0.1:10;
+y=[x];
+plot(x,y);
+title("f(x)=[x]");
+xlabel("X");
+ylabel("Y");
